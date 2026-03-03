@@ -6,3 +6,6 @@
 /.vs/Clube_Livro_Dev.slnx/v18/.wsuo
 /.vs/Clube_Livro_Dev.slnx/v18/DocumentLayout.json
 /.vs/slnx.sqlite
+*.vsidx
+*.v2
+/OO_Solid_Ninja/.vs/OO_Solid_Ninja.slnx/v18

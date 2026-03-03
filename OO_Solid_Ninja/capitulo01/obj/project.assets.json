@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Renata\\006 -ExemplosApp\\Clube_Livro_Dev\\OO_Solid_Ninja\\capitulo01\\capitulo01.csproj",
+      "projectUniqueName": "D:\\Renata\\Clube_Livro_Dev\\OO_Solid_Ninja\\capitulo01\\capitulo01.csproj",
       "projectName": "capitulo01",
-      "projectPath": "D:\\Renata\\006 -ExemplosApp\\Clube_Livro_Dev\\OO_Solid_Ninja\\capitulo01\\capitulo01.csproj",
+      "projectPath": "D:\\Renata\\Clube_Livro_Dev\\OO_Solid_Ninja\\capitulo01\\capitulo01.csproj",
       "packagesPath": "C:\\Users\\Renata\\.nuget\\packages\\",
-      "outputPath": "D:\\Renata\\006 -ExemplosApp\\Clube_Livro_Dev\\OO_Solid_Ninja\\capitulo01\\obj\\",
+      "outputPath": "D:\\Renata\\Clube_Livro_Dev\\OO_Solid_Ninja\\capitulo01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

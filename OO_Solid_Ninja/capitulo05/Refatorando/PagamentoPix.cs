@@ -10,8 +10,9 @@ namespace capitulo05.Refatorando
 
         public void Processar(double valor, FaturaRef fatura)
         {
-            // Pix confirma na hora, talvez gere um log diferente
-            var pagamento = new PagamentoRef(valor, Meio);
+            // Aplicando 5% de desconto
+            double valorComDesconto = valor * 0.95;
+            var pagamento = new PagamentoRef(valorComDesconto, Meio);
 
 
             // Esta tudo encapsulado dentro da regra de negócio 

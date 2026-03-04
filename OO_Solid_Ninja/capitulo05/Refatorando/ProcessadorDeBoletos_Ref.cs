@@ -7,7 +7,7 @@ namespace capitulo05.Refatorando
 {
     public class ProcessadorDeBoletos_Ref
     {
-        public void Processa(List<Boleto> boletos, FaturaRef fatura)
+        public void Processa(List<BoletoRef> boletos, FaturaRef fatura)
         {
             double total = 0;
             foreach (var boleto in boletos)

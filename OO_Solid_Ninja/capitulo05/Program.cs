@@ -7,11 +7,11 @@ using System.Collections.Generic;
 var fatura = new FaturaRef(1500);
 
 // Criando boletos
-var boletos = new List<Boleto>
+var boletos = new List<BoletoRef>
 {
-    new Boleto(400, DateTime.Today),
-    new Boleto(300, DateTime.Today),
-    new Boleto(300, DateTime.Today)
+    new BoletoRef(400, DateTime.Today),
+    new BoletoRef(300, DateTime.Today),
+    new BoletoRef(300, DateTime.Today)
 };
 
 // Criando o processador

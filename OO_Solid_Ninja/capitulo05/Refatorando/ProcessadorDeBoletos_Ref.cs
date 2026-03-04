@@ -15,8 +15,7 @@ namespace capitulo05.Refatorando
                 PagamentoRef pagamento = new PagamentoRef(boleto.Valor, MeioDePagamento.Boleto);
 
 
-                // Esta tudo encapsulado dentro da regra de negócio da Fat
-                fatura.adicionaPagamento(pagamento);
+                boleto.EstrategiaPagamento.Processar(boleto.Valor, fatura);
             }
 
            

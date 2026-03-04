@@ -7,11 +7,12 @@ using System.Collections.Generic;
 var fatura = new FaturaRef(1500);
 
 // Criando boletos
+// Usando Strategy para definir a forma de pagamento de cada boleto, sem precisar alterar o processador
 var boletos = new List<BoletoRef>
 {
-    new BoletoRef(400, DateTime.Today),
-    new BoletoRef(300, DateTime.Today),
-    new BoletoRef(300, DateTime.Today)
+    new BoletoRef(400, DateTime.Today, new PagamentoBoleto()),
+    new BoletoRef(300, DateTime.Today, new PagamentoPix()),
+    new BoletoRef(300, DateTime.Today,new PagamentoPix())
 };
 
 // Criando o processador

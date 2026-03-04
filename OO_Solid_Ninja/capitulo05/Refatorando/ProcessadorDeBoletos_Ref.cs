@@ -12,8 +12,10 @@ namespace capitulo05.Refatorando
             double total = 0;
             foreach (var boleto in boletos)
             {
-                Pagamento pagamento = new Pagamento(boleto.Valor, MeioDePagamento.Boleto);
+                PagamentoRef pagamento = new PagamentoRef(boleto.Valor, MeioDePagamento.Boleto);
 
+
+                // Esta tudo encapsulado dentro da regra de negócio da Fat
                 fatura.adicionaPagamento(pagamento);
             }
 

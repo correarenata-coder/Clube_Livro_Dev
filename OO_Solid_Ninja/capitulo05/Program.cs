@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 
 // Criando uma fatura
-var fatura = new FaturaRef(1000);
+var fatura = new FaturaRef(1500);
 
 // Criando boletos
 var boletos = new List<Boleto>

@@ -7,13 +7,13 @@ namespace capitulo05.Refatorando
 {
     public class FaturaRef
     {
-        private readonly List<Pagamento> _pagamentos = new();
+        private readonly List<PagamentoRef> _pagamentos = new();
 
         public double Valor { get; private set; }
         public bool Pago { get; private set; }
 
         // Só leitura para o mundo externo
-        public IReadOnlyCollection<Pagamento> Pagamentos => _pagamentos.AsReadOnly();
+        public IReadOnlyCollection<PagamentoRef> Pagamentos => _pagamentos.AsReadOnly();
 
         public FaturaRef(double valor)
         {
@@ -24,7 +24,7 @@ namespace capitulo05.Refatorando
             Pago = false;
         }
 
-        public void adicionaPagamento(Pagamento pagamento)
+        public void adicionaPagamento(PagamentoRef pagamento)
         {
             if (pagamento == null)
                 throw new ArgumentNullException(nameof(pagamento));

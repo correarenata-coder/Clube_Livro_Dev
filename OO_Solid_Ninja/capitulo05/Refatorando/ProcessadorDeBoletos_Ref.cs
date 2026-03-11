@@ -9,7 +9,7 @@ namespace capitulo05.Refatorando
     {
         public void Processa(List<BoletoRef> boletos, FaturaRef fatura)
         {
-            double total = 0;
+           
             foreach (var boleto in boletos)
             {
                 PagamentoRef pagamento = new PagamentoRef(boleto.Valor, MeioDePagamento.Boleto);

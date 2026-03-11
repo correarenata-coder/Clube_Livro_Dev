@@ -2,4 +2,5 @@
   <Project Path="../../006 -ExemplosApp/Clube_Livro_Dev/OO_Solid_Ninja/capitulo04/capitulo04.csproj" />
   <Project Path="capitulo01/capitulo01.csproj" />
   <Project Path="capitulo05/capitulo05.csproj" Id="e1004f34-bbae-4e42-8c54-e4fb63a4651f" />
+  <Project Path="capitulo06/capitulo06.csproj" Id="2d2f2c1b-5861-4ff2-829b-bd0dd1f9d184" />
 </Solution>

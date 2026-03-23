@@ -68,12 +68,54 @@ Exemplos quando os nomes não saão bons :
 Exemplo :
 
 a) nomes genéricos demais
-<prev>
+<pre>
 {
-a int x = 10;
+int x = 10;
 decimal v = 1000;
 }
+</pre>
+ O que é "x" e o que é "v" ??
+ Melhorar para :
+ <pre>
+ int quantidadeItens = 10;
+decimal valorTotal = 1000;
 </prev>
- O que é "x" e o que é "v"
  
- a 
+
+ b) Nomes que não representam o que o método faz
+ <pre>
+ void Processar()
+{
+    // envia email
+}
+ </prev>
+
+ Melhorar para:
+ <pre>
+ void EnviarEmailConfirmacao()
+{
+}
+ </pre>
+ c) boleano mal nomeado
+ <prev>
+ bool status;
+ </pre>
+   
+  Melhorar para :
+  <pre>
+  bool pedidoPago;
+bool usuarioAtivo;
+  </prev>
+
+  ## 6 - Como avaliar os números encontrados?
+
+  Nem tudo que é medido é importante, e nem tudo que é importante pode ser medido. As métricas de código são ferramentas úteis para identificar áreas problemáticas, mas elas não devem ser usadas como a única base para avaliar a qualidade do código. É importante considerar o contexto do projeto, as necessidades dos usuários e os objetivos de negócios ao interpretar as métricas de código. Além disso, é fundamental usar as métricas como um guia para melhorar o código, em vez de usá-las como um fim em si mesmas.
+
+  ## 7 - Ferramentas
+  Existem várias ferramentas no mercado, a mais comum é o Sonar. É uma plataforma onde se pode configurar todas essas métrica mencionadas e ele mostra a evolução  delas ao longo do tempo.Ela é disparada automaticamente, cada vez que o código é comitado.
+
+  Alguns exemplos para serem usados no visual studio :
+
+  - SonarLint : https://youtu.be/lrz3trdqUMw
+  - Roslyn
+  - ReSharper

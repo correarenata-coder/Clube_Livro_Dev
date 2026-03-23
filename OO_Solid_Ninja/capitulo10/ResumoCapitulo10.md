@@ -56,3 +56,22 @@ O acoplamento é uma métrica que mede o grau de dependência entre as classes.
 
 - Aclopamento eferente : Quando uma classe depende de diversas outras classes
 - Aclopamento aferente : Mede quantas classes dependem  da classe principal
+
+## 5 - Má nomenclatura
+
+Para uma boa usabilidade de código é essencial darmos bons nomes às variáveis, métodos e classes.
+Exemplos quando os nomes não saão bons :
+- não explicam o que fazem
+- são genéricos demais
+- confundem quem lê (inclusive você no futuro)
+
+Exemplo :
+
+a) nomes genéricos demais
+<prev>
+int x = 10;
+decimal v = 1000;
+ </prev>
+ O que é "x" e o que é "v"
+ 
+ a 

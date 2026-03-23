@@ -1,7 +1,7 @@
 # Capitulo 10 - Métricas de código
 
 ## Introdução
-Hoje em dia criar código de qualidade é essencial para o sucesso de um projeto. idade do código. Neste capítulo, vamos explorar algumas dessas métricas e como elas podem ser aplicadas para melhorar a qualidade do código. Vamos explorar algumas métricas de código:
+Hoje em dia criar código de qualidade é essencial para o sucesso de um projeto idade do código. Neste capítulo, vamos explorar algumas dessas métricas e como elas podem ser aplicadas para melhorar a qualidade do código. Vamos explorar algumas métricas de código:
 
 
 ## Complexidade Ciclomática
@@ -22,6 +22,6 @@ Nesse caso temos 4 possibilidades de caminho :
 - Quando so,emte a primeria é verdadeira
 - Quando somente a segunda é verdadeira
 
-Quanto maior esse número, mais complexo é o método. Esse número é conhecido por *Número de McCabe*
+Quanto maior esse número, mais complexo é o método. Esse número é conhecido por *Número de McCabe*, sendo achar para achar esse número é preciso contar a quantidade de instruções de desvio exsitentes e adicionar 1 no final. Messe caso temos 2 ifs + 1, daria 3.
 
 

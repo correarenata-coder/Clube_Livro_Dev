@@ -12,4 +12,8 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="146.0.7680.7200" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Refatorando\2-QuadradoRetangulo\" />
+  </ItemGroup>
+
 </Project>

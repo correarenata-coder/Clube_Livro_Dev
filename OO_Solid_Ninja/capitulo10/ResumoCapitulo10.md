@@ -69,9 +69,11 @@ Exemplo :
 
 a) nomes genéricos demais
 <prev>
-int x = 10;
+{
+a int x = 10;
 decimal v = 1000;
- </prev>
+}
+</prev>
  O que é "x" e o que é "v"
  
  a 

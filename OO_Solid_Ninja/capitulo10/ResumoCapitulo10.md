@@ -88,7 +88,7 @@ decimal valorTotal = 1000;
 {
     // envia email
 }
- </prev>
+ </pre>
 
  Melhorar para:
  <pre>
@@ -96,6 +96,7 @@ decimal valorTotal = 1000;
 {
 }
  </pre>
+
  c) boleano mal nomeado
  <prev>
  bool status;
@@ -105,7 +106,7 @@ decimal valorTotal = 1000;
   <pre>
   bool pedidoPago;
 bool usuarioAtivo;
-  </prev>
+  </pre>
 
   ## 6 - Como avaliar os números encontrados?
 

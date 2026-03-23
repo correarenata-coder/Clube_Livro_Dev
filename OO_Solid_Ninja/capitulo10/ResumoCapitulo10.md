@@ -67,7 +67,7 @@ Exemplos quando os nomes não saão bons :
 
 Exemplo :
 
-a) nomes genéricos demais
+## a) nomes genéricos demais
 <pre>
 {
 int x = 10;
@@ -82,7 +82,7 @@ decimal valorTotal = 1000;
 </pre>
  
 
- b) Nomes que não representam o que o método faz
+ ## b) Nomes que não representam o que o método faz
  <pre>
  void Processar()
 {
@@ -97,7 +97,7 @@ decimal valorTotal = 1000;
 }
  </pre>
 
- c) boleano mal nomeado
+ ## c) boleano mal nomeado
  <pre>
  bool status;
  </pre>

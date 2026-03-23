@@ -79,7 +79,7 @@ decimal v = 1000;
  <pre>
  int quantidadeItens = 10;
 decimal valorTotal = 1000;
-</prev>
+</pre>
  
 
  b) Nomes que não representam o que o método faz
@@ -98,7 +98,7 @@ decimal valorTotal = 1000;
  </pre>
 
  c) boleano mal nomeado
- <prev>
+ <pre>
  bool status;
  </pre>
    

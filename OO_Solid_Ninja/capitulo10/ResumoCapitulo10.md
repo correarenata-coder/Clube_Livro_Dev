@@ -117,6 +117,6 @@ bool usuarioAtivo;
 
   Alguns exemplos para serem usados no visual studio :
 
-  - SonarLint : https://youtu.be/lrz3trdqUMw
+  - SonarLint 
   - Roslyn
   - ReSharper

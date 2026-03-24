@@ -5,6 +5,7 @@
   <Project Path="capitulo06/capitulo06.csproj" Id="2d2f2c1b-5861-4ff2-829b-bd0dd1f9d184" />
   <Project Path="capitulo07/capitulo07.csproj" Id="c41a3a64-5a11-4e10-8516-9344dec36eda" />
   <Project Path="capitulo08/capitulo08.csproj" Id="fa5314ab-3c9c-4010-9339-bf702ed63655" />
+  <Project Path="capitulo09/capitulo09.csproj" Id="f698d0bb-698d-4b3b-aebc-4a47207335e0" />
   <Project Path="capitulo10/capitulo10.csproj" Id="902f1c68-eca9-4dc4-9822-52507e60c3af" />
   <Project Path="capitulo11/capitulo11.csproj" Id="d932b5ad-3330-4d4c-9e6f-0db49db31ce2" />
 </Solution>

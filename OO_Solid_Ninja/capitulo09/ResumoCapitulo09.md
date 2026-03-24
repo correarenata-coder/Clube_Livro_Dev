@@ -40,14 +40,16 @@ class Estagiario : Funcionario
 
 Funcionário bate o ponto, mas o estagiário não precisa bater o ponto, então ele lança uma exceção. Isso é um sinal de que a hierarquia de classes não está bem estruturada, e que a classe Estagiário está sendo forçada a herdar algo que não é relevante para ela. Para resolver esse problema, seria melhor criar uma hierarquia de classes diferente, onde o Estagiário não herda do Funcionario, ou seja, criar uma interface ou classe abstrata que defina apenas os métodos relevantes para cada tipo de funcionário.
 
-Como podemos identificar?
+## 🔍 Como podemos identificar?
+
 Se você ver algo assim:
 
-throw new NotImplementedException()
-método vazio
-override que não faz sentido
+* `throw new NotImplementedException()`
+* método vazio
+* `override` que não faz sentido
 
-👉 🚨 ALERTA: possível Refused Bequest
+👉 🚨 **ALERTA: possível *Refused Bequest***
+
 
 Forma Correta:
 <pre>

@@ -258,4 +258,147 @@ class Logger
 
 ## 5 - Divergente Changes
 
+Esse é nome quando  classe não é coesae sofre alterações constantes.
+<pre>
+class PedidoService
+{
+    public void CalcularTotal(Pedido pedido)
+    {
+        // regra de negócio
+    }
 
+    public void Salvar(Pedido pedido)
+    {
+        // acesso a banco
+    }
+
+    public void EnviarEmailConfirmacao(Pedido pedido)
+    {
+        // envio de email
+    }
+}
+
+</pre>
+Forma correta
+<pre>
+
+class PedidoService
+{
+    public void CalcularTotal(Pedido pedido)
+    {
+        // regra de negócio
+    }
+}
+
+class PedidoRepository
+{
+    public void Salvar(Pedido pedido)
+    {
+        // banco de dados
+    }
+}
+class EmailService
+{
+    public void EnviarConfirmacao(Pedido pedido)
+    {
+        // envio de email
+    }
+}
+
+
+</pre>
+
+
+
+## 6 - Shotgun Surgery
+Quando um usuário pede uma mudança no sistema e você tem que alterar 20 arquivos de uma só vez.
+
+
+Exemplo ruim:
+<pre>
+class PedidoService
+{
+    public decimal CalcularTotal(Pedido pedido)
+    {
+        if (pedido.ClienteVIP)
+            return pedido.Total * 0.9m;
+
+        return pedido.Total;
+    }
+}
+class RelatorioService
+{
+    public decimal GerarTotal(Pedido pedido)
+    {
+        if (pedido.ClienteVIP)
+            return pedido.Total * 0.9m;
+
+        return pedido.Total;
+    }
+}
+
+class FaturaService
+{
+    public decimal CalcularFatura(Pedido pedido)
+    {
+        if (pedido.ClienteVIP)
+            return pedido.Total * 0.9m;
+
+        return pedido.Total;
+    }
+}
+
+
+</pre>
+
+🚨 Problema
+
+👉 A regra de desconto está duplicada em vários lugares
+
+Agora imagine:
+
+desconto muda de 10% → 15%
+
+💥 Você precisa alterar:
+
+PedidoService
+RelatorioService
+FaturaService
+
+👉 Isso é Shotgun Surgery
+
+Forma correta:
+<pre>
+class DescontoService
+{
+    public decimal AplicarDesconto(Pedido pedido)
+    {
+        if (pedido.ClienteVIP)
+            return pedido.Total * 0.9m;
+
+        return pedido.Total;
+    }
+}
+
+class PedidoService
+{
+    private readonly DescontoService desconto;
+
+    public PedidoService(DescontoService desconto)
+    {
+        this.desconto = desconto;
+    }
+
+    public decimal CalcularTotal(Pedido pedido)
+    {
+        return desconto.AplicarDesconto(pedido);
+    }
+}
+
+</pre>
+## 🔄 Diferença importante
+
+| Smell             | Problema                                         |
+|-------------------|--------------------------------------------------|
+| Divergent Change  | uma classe muda por vários motivos               |
+| Shotgun Surgery   | uma mudança exige mexer em várias classes        |

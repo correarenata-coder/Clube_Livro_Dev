@@ -1,0 +1,1 @@
+﻿# Capitulo 7 -Interfaces magras e o tal do ISP (Interface Segregation Principle - Princípio da Segregação de Interfaces)

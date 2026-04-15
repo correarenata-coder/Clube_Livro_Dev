@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="ResumoCapitulo05.md" />
+    <Compile Include="ResumoCapitulo03_DIP.md" />
   </ItemGroup>
 
 </Project>

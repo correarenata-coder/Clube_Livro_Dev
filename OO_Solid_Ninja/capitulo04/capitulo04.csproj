@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="ResumoCapitulo04_OCP.md" />
+  </ItemGroup>
+
 </Project>

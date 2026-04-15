@@ -3,8 +3,6 @@
 
 
 ##Introdução
-using capitulo04.ExemploLivro;
-
 Afirma que as classes devem estar "abertas para extensão, mas fechadas para modificação". Isso significa que devemos projetar nossas classes de forma que seja possível adicionar novas funcionalidades sem alterar o código existente.
 
 
@@ -45,6 +43,7 @@ public class TabelaDePrecoPadrao
         }
     }
 </prev>
+
 <pre>
 public class Frete
     {
@@ -57,7 +56,7 @@ public class Frete
             return 30;
         }
     }
-</prev>
+</pre>
 
 
 ## 🔍 Qual é o problema?

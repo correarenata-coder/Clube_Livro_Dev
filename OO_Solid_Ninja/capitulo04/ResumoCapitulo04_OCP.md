@@ -44,6 +44,7 @@ public class TabelaDePrecoPadrao
     }
 </pre>
 
+
 <pre>
 public class Frete
     {
@@ -108,7 +109,7 @@ A idéia é poder ser uma classe "aberta para extensão" e "fechadas para modifi
     }
  </pre>
 
- Como fazer a chamada
+ Como fazer a chamada?
  <pre>
  public class CalculadoraDePrecos_Ref
     {

@@ -1,8 +1,41 @@
-# Clube_Livro_Dev
-Repositório dedicado ao Clube de leitura sobre livros de desenvolvimento e carreira tech. Instagram @clubedeleituradev
+# 📚 Clube do Livro Dev
 
-# Livro escolhido :
-Orientação a Objetos e SOLID para Ninjas
-Projetando classes flexíveis
-Autor: Maurício Aniche
+Repositório dedicado ao **Clube de Leitura sobre desenvolvimento de software e carreira em tecnologia**.
 
+📸 Instagram: [@clubedeleituradev](https://instagram.com/clubedeleituradev)
+
+---
+
+## 📖 Livro Atual
+
+- **📌 Título:** *Orientação a Objetos e SOLID para Ninjas*  
+- **🎯 Tema:** Projetando classes flexíveis e código de qualidade  
+- **👨‍💻 Autor:** Maurício Aniche  
+
+---
+
+## 💡 Sobre o Clube
+
+O objetivo do clube é:
+
+- Evoluir tecnicamente em desenvolvimento de software  
+- Discutir boas práticas e arquitetura  
+- Aplicar conceitos no dia a dia profissional  
+- Trocar experiências entre desenvolvedores  
+
+---
+
+## 🧠 Tópicos abordados neste livro
+
+- Princípios **SOLID**  
+- Boas práticas de Orientação a Objetos  
+- Baixo acoplamento e alta coesão  
+- Testabilidade e manutenção de código  
+- Design de software na prática  
+
+---
+
+
+## 📌 Licença
+
+Este projeto é apenas para fins de estudo e compartilhamento de conhecimento.

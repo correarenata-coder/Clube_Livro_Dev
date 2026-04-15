@@ -1,22 +1,33 @@
-﻿# SOLID
+﻿# 📌 SOLID
 
 ## Introdução
-Hoje em dia criar código de qualidade é essencial para o sucesso de um projeto idade do código. Neste capítulo, vamos explorar algumas dessas métricas e como elas podem ser aplicadas para melhorar a qualidade do código. Vamos explorar algumas métricas de código:
+Atualmente, escrever código de qualidade é essencial para o sucesso e a sustentabilidade de qualquer projeto de software. Um código bem estruturado facilita a manutenção, reduz erros e melhora a evolução do sistema ao longo do tempo.
 
+Neste contexto, os princípios **SOLID** são fundamentais. Eles representam boas práticas de design orientado a objetos que ajudam a reduzir o acoplamento, aumentar a coesão e tornar o código mais flexível e escalável.
 
-## 📊 SOLID
+---
 
-| Sigla  | Significado							|Observação                                   |
-|-----------------------------------------------|---------------------------------------------|
-| S      | Principio da Responsábilidade única	|método deveria estar em outra classe         |
-| O      | Principio do Aberto/Fechado          |classes se conhecem demais                   |
-| L      | Principio da Substituição de Liskov  |herança mal feita                            |	
-| I      | Principio da Segregação de Interface |interface com métodos que não fazem sentido  |
-| D      | Principio da Inversão de Dependência |acoplamento alto                             |
-		
+## 📊 Princípios SOLID
 
+| Sigla | Nome | Descrição | Sinais de problema |
+|------|------|----------|-------------------|
+| **S** | Princípio da Responsabilidade Única | Uma classe deve ter apenas um único motivo para mudar. | Classes com múltiplas responsabilidades |
+| **O** | Princípio do Aberto/Fechado | Classes devem estar abertas para extensão, mas fechadas para modificação. | Alterações frequentes em código existente |
+| **L** | Princípio da Substituição de Liskov | Classes filhas devem poder substituir classes base sem quebrar o comportamento. | Herança que gera comportamento inesperado |
+| **I** | Princípio da Segregação de Interface | Interfaces devem ser específicas e não obrigar implementações desnecessárias. | Interfaces muito grandes (“gordas”) |
+| **D** | Princípio da Inversão de Dependência | Dependa de abstrações, não de implementações concretas. | Alto acoplamento entre classes |
 
+---
 
-## Fonte - Baltha
-https://www.youtube.com/watch?v=P5eqNeGSXRs&list=PLHlHvK2lnJneX-lsKM27WTjmNqpX_YzHF
+## 💡 Boas práticas relacionadas
 
+- Alta coesão: cada classe com uma única responsabilidade  
+- Baixo acoplamento: dependências reduzidas entre classes  
+- Facilidade de testes: código mais simples de testar  
+- Escalabilidade: novas funcionalidades sem quebrar o existente  
+
+---
+
+## 📚 Fonte
+
+- [Curso SOLID - Balta](https://www.youtube.com/watch?v=P5eqNeGSXRs&list=PLHlHvK2lnJneX-lsKM27WTjmNqpX_YzHF)

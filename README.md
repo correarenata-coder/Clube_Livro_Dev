@@ -6,7 +6,7 @@ Repositório dedicado ao **Clube de Leitura sobre desenvolvimento de software e 
 
 ---
 
-## 📖 Livro Atual
+## 📖 Livro 
 
 - **📌 Título:** *Orientação a Objetos e SOLID para Ninjas*  
 - **🎯 Tema:** Projetando classes flexíveis e código de qualidade  

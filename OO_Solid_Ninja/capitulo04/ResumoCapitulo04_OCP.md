@@ -42,7 +42,7 @@ public class TabelaDePrecoPadrao
             return 0;
         }
     }
-</prev>
+</pre>
 
 <pre>
 public class Frete
